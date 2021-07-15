@@ -205,7 +205,7 @@ docker build . --rm --force-rm --compress --no-cache=true --pull --file Dockerfi
 ```
 - Run the image:
 ```
-sudo docker run mirrorbot
+sudo docker run RoyukoMirrorBot
 ```
 
 ## Deploying on Heroku
