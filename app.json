@@ -1,15 +1,15 @@
 {
-    "name": "slam-mirrorbot",
+    "name": "Royuko Mirror Bot",
     "description": "A Telegram bot for all your mirror needs",
-    "logo": "https://telegra.ph/file/6507910fd06d18dfaba82.jpg",
+    "logo": "https://telegra.ph/file/bbc9ccb63ea225572f6ee.jpg",
     "keywords": [
       "bot",
       "telegram",
       "python"
     ],
-    "repository": "https://github.com/breakdowns/slam-mirrorbot",
-    "website": "https://github.com/breakdowns/slam-mirrorbot",
-    "success_url": "https://t.me/SlamMirrorSupport",
+    "repository": "https://github.com/AniSerge/RoyukoMirrorBot",
+    "website": "https://t.me/SergeMirror",
+    "success_url": "https://t.me/AniSerge",
     "stack": "container",
     "env": {
       "ENV": {
