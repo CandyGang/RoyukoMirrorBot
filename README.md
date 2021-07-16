@@ -68,8 +68,8 @@ Deploying is pretty much straight forward and is divided into several steps as f
 
 - Clone this repo:
 ```
-git clone https://github.com/AniSerge/RoyukoMirrorBot mirrorbot/
-cd mirrorbot
+git clone https://github.com/AniSerge/RoyukoMirrorBot RoyukoMirrorBot/
+cd RoyukoMirrorBot
 ```
 
 - Install requirements
@@ -208,17 +208,6 @@ docker build . --rm --force-rm --compress --no-cache=true --pull --file Dockerfi
 sudo docker run RoyukoMirrorBot
 ```
 
-## Deploying on Heroku
-
-- Give stars and Fork this repo then upload **token.pickle** to your forks, or you can upload your **token.pickle** to your Index and put your **token.pickle** link to **TOKEN_PICKLE_URL** (**NOTE**: If you didn't upload **token.pickle** uploading will not work). How to generate **token.pickle**? [Read here](https://github.com/breakdowns/slam-mirrorbot#getting-google-oauth-api-credential-file)
-- Hit the **DEPLOY TO HEROKU** button and follow the further instructions in the screen
-- Recommended to use 1 App in 1 Heroku accounts
-
-<p><a href="https://heroku.com/deploy"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
-
-## Deploying on Heroku with heroku-cli and Goorm IDE
-<p><a href="https://telegra.ph/How-to-Deploy-a-Mirror-Bot-to-Heroku-with-CLI-05-06"> <img src="https://img.shields.io/badge/see%20on%20telegraph-grey?style=for-the-badge" width="190""/></a></p>
-
 # Using Service Accounts for uploading to avoid user rate limit
 For Service Account to work, you must set **USE_SERVICE_ACCOUNTS=**"True" in config file or environment variables, 
 Many thanks to [AutoRClone](https://github.com/xyou365/AutoRclone) for the scripts.
@@ -306,4 +295,3 @@ Thanks to:
 - [anasty17](https://github.com/anasty17) for some features & help
 - [breakdowns](https://github.com/breakdowns) for slam-mirrorbot
 
-And many more people who aren't mentioned here, but may be found in [Contributors](https://github.com/breakdowns/slam-mirrorbot/graphs/contributors).
